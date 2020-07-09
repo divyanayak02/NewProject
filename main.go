@@ -15,6 +15,7 @@ type Book struct {
 	Isbn   string  `json:"isbn"`
 	Title  string  `json:"Title"`
 	Author *Author `json:"author"`
+	Name   string  `json:"name"`
 }
 
 type Author struct {
